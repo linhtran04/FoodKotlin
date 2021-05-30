@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Linh Restaurant</string>
+    <string name="add_to_cart">Thêm vào giỏ</string>
+    <string name="about">Giới thiệu</string>
+
+    <string name="clear_cart">Xóa giỏ hàng</string>
+    <string name="create_an_account">Tạo tài khoản</string>
+    <string name="cart">Giỏ hàng</string>
+
+    <string name="delivery_address">Địa chỉ giao hàng</string>
+    <string name="developer">Developer</string>
+
+    <string name="email_address">Địa chỉ email</string>
+
+    <string name="full_name">Họ và tên</string>
+
+    <string name="ksh">%d đ</string>
+
+    <string name="logout">Đăng xuất</string>
+
+    <string name="price_listing">%s đ</string>
+    <string name="price_listing_w_add">+ %s đ</string>
+    <string name="profile">Profile</string>
+    <string name="place_order">Đặt hàng</string>
+    <string name="password">Mật khẩu</string>
+
+    <string name="required">Bắt buộc</string>
+
+    <string name="sign_up">Đăng ký</string>
+    <string name="source_code">Source Code</string>
+
+    <string name="total">Tổng</string>
+
+    <string name="drink_image_content_desc">Hình ảnh món ăn</string>
+    <string name="app_icon_content_desc">App icon</string>
+    <string name="minus_quantity_button_content_desc">Minus quantity button</string>
+    <string name="add_quantity_button_content_desc">Add quantity button</string>
+    <string name="payment_method">Phương thức thanh toán</string>
+    <string name="payment_status">Tình trạng thanh toán</string>
+    <string name="order_items">Đơn hàng món ăn</string>
+    <string name="order_id">Mã số đơn hàng ID</string>
+    <string name="order_status">Tình trạng đơn hàng</string>
+    <string name="additional_comments">Thêm yêu cầu khác</string>
+    <string name="back_button">Nút quay lại</string>
+    <string name="order_details">Chi tiết đơn hàng</string>
+    <string name="about_contact_email_content_desc">Liên hệ qua email</string>
+    <string name="about_view_linkedin_content_desc">Xem LinkedIn</string>
+    <string name="about_view_website_content_desc">Xem website</string>
+    <string name="about_view_github_content_desc">Xem Github profile</string>
+    <string name="app_icon">App Icon</string>
+    <string name="app_icon_attribution">Ứng dụng đặt món bởi Trần Thùy Linh</string>
+    <string name="privacy_policy">Quy tắc hoạt động</string>
+    <string name="open_source_licenses">Giấy phép hoạt động</string>
+    <string name="account_details">Thông tin tài khoản</string>
+    <string name="payment_details">Thông tin thanh toán</string>
+    <string name="developer_name">Thùy Linh Trần\'e</string>
+    <string name="developer_contact">thuylinhlover@gmail.com</string>
+    <string name="checkout">Thanh toán</string>
+    <string name="reset_password_error_message">Có lỗi.\n\nVui lòng thử lại link được gửi tới email.</string>
+
+    <plurals name="order_info">
+        <item quantity="one">item for</item>
+        <item quantity="other">items for</item>
+    </plurals>
+
+    <plurals name="item_s">
+        <item quantity="one">%d món</item>
+        <item quantity="other">%d món</item>
+    </plurals>
+</resources>

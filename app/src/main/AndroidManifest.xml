@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.marknkamau.FoodKotlin">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name=".FoodKotlinApp"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".ui.resetPassword.ResetPasswordActivity"
+            android:theme="@style/AppTheme.NoBar">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="FoodKotlin.store"
+                    android:pathPattern="/reset-password"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.payCard.PayCardActivity" />
+        <activity android:name=".ui.payMpesa.PayMpesaActivity" />
+        <activity android:name=".ui.orderDetail.OrderDetailActivity" />
+        <activity
+            android:name=".ui.orders.OrdersActivity"
+            android:parentActivityName=".ui.profile.ProfileActivity" />
+        <activity android:name=".ui.checkout.CheckoutActivity" />
+        <activity
+            android:name=".ui.addAddress.AddAddressActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:parentActivityName=".ui.addressBook.AddressBookActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.TranslucentStatus" />
+        <activity
+            android:name=".ui.addressBook.AddressBookActivity"
+            android:parentActivityName=".ui.profile.ProfileActivity" />
+        <activity
+            android:name=".ui.SplashActivity"
+            android:theme="@style/AppTheme.SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.main.MainActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.productDetails.ProductDetailsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:parentActivityName=".ui.main.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.TranslucentStatus" />
+        <activity
+            android:name=".ui.cart.CartActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.login.SignInActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoBar" />
+        <activity
+            android:name=".ui.signup.SignUpActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoBar" />
+        <activity
+            android:name=".ui.profile.ProfileActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.about.AboutActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoBar" />
+
+        <service android:name=".data.network.FoodKotlinFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_just_java_logo_black" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+    </application>
+
+</manifest>

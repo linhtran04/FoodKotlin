@@ -1,4 +1,4 @@
-package com.marknkamau.FoodKotlin.ui.resetPassword
+package com.thuylinhtran.FoodKotlin.ui.resetPassword
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,12 +6,12 @@ import android.view.View
 import androidx.core.app.TaskStackBuilder
 import com.marknjunge.core.data.model.Resource
 import com.marknjunge.core.data.repository.AuthRepository
-import com.marknkamau.FoodKotlin.R
-import com.marknkamau.FoodKotlin.ui.base.BaseActivity
-import com.marknkamau.FoodKotlin.ui.login.SignInActivity
-import com.marknkamau.FoodKotlin.ui.main.MainActivity
-import com.marknkamau.FoodKotlin.utils.resetErrorOnChange
-import com.marknkamau.FoodKotlin.utils.toast
+import com.thuylinhtran.FoodKotlin.R
+import com.thuylinhtran.FoodKotlin.ui.base.BaseActivity
+import com.thuylinhtran.FoodKotlin.ui.login.SignInActivity
+import com.thuylinhtran.FoodKotlin.ui.main.MainActivity
+import com.thuylinhtran.FoodKotlin.utils.resetErrorOnChange
+import com.thuylinhtran.FoodKotlin.utils.toast
 import kotlinx.android.synthetic.main.activity_reset_password.*
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

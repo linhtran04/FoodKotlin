@@ -1,4 +1,4 @@
-package com.marknkamau.FoodKotlin.utils
+package com.thuylinhtran.FoodKotlin.utils
 
 import org.junit.Assert
 import org.junit.Before

@@ -1,9 +1,9 @@
-package com.marknkamau.FoodKotlin.data.db
+package com.thuylinhtran.FoodKotlin.data.db
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
-import com.marknkamau.FoodKotlin.data.models.CartOptionEntity
-import com.marknkamau.FoodKotlin.data.models.CartProductEntity
+import com.thuylinhtran.FoodKotlin.data.models.CartOptionEntity
+import com.thuylinhtran.FoodKotlin.data.models.CartProductEntity
 
 @Database(
     entities = [CartProductEntity::class, CartOptionEntity::class],

@@ -1,10 +1,10 @@
-package com.marknkamau.FoodKotlin.data.preferences
+package com.thuylinhtran.FoodKotlin.data.preferences
 
 import android.content.Context
 import com.marknjunge.core.data.local.PreferencesRepository
 import com.marknjunge.core.data.model.User
 import com.marknjunge.core.utils.appConfig
-import com.marknkamau.FoodKotlin.utils.PreferenceUtils
+import com.thuylinhtran.FoodKotlin.utils.PreferenceUtils
 import kotlinx.serialization.json.JsonConfiguration
 
 class PreferencesRepositoryImpl(private val context: Context) : PreferencesRepository {

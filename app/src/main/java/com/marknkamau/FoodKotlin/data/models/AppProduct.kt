@@ -1,4 +1,4 @@
-package com.marknkamau.FoodKotlin.data.models
+package com.thuylinhtran.FoodKotlin.data.models
 
 import com.marknjunge.core.data.model.Product
 import com.marknjunge.core.data.model.ProductChoice

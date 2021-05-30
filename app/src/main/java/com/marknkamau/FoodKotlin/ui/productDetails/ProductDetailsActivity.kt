@@ -1,4 +1,4 @@
-package com.marknkamau.FoodKotlin.ui.productDetails
+package com.thuylinhtran.FoodKotlin.ui.productDetails
 
 import android.app.Activity
 import android.content.Context
@@ -12,12 +12,12 @@ import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.marknjunge.core.data.model.Product
-import com.marknkamau.FoodKotlin.R
-import com.marknkamau.FoodKotlin.data.models.AppProduct
-import com.marknkamau.FoodKotlin.data.models.toAppModel
-import com.marknkamau.FoodKotlin.ui.base.BaseActivity
-import com.marknkamau.FoodKotlin.utils.CurrencyFormatter
-import com.marknkamau.FoodKotlin.utils.replace
+import com.thuylinhtran.FoodKotlin.R
+import com.thuylinhtran.FoodKotlin.data.models.AppProduct
+import com.thuylinhtran.FoodKotlin.data.models.toAppModel
+import com.thuylinhtran.FoodKotlin.ui.base.BaseActivity
+import com.thuylinhtran.FoodKotlin.utils.CurrencyFormatter
+import com.thuylinhtran.FoodKotlin.utils.replace
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.activity_product_details.*
 import kotlinx.android.synthetic.main.content_product_details.*

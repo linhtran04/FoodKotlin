@@ -12,14 +12,14 @@ keys.load(new FileInputStream(keysPropertiesFile))
 
 android {
     defaultConfig {
-        applicationId "com.marknkamau.FoodKotlin"
+        applicationId "com.thuylinhtran.FoodKotlin"
 
         versionCode 14
         versionName "2.2.1"
 
         vectorDrawables.useSupportLibrary = true
 
-        testInstrumentationRunner "com.marknkamau.FoodKotlin.testUtils.TestApplicationRunner"
+        testInstrumentationRunner "com.thuylinhtran.FoodKotlin.testUtils.TestApplicationRunner"
 
         buildConfigField("String", "googleClientId", '"565628649475-4vp8dm790n2kuuhqpu3o662e9odht703.apps.googleusercontent.com"')
         buildConfigField("String", "sentryDsn", keys['SENTRY_DSN'])

@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.marknkamau.FoodKotlin.ui.cart.CartActivity">
+    tools:context="com.thuylinhtran.FoodKotlin.ui.cart.CartActivity">
 
     <LinearLayout
         android:id="@+id/layoutCartEmpty"

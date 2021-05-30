@@ -1,4 +1,4 @@
-package com.marknkamau.FoodKotlin.ui.checkout
+package com.thuylinhtran.FoodKotlin.ui.checkout
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -8,8 +8,8 @@ import com.marknjunge.core.data.local.PreferencesRepository
 import com.marknjunge.core.data.model.*
 import com.marknjunge.core.data.repository.OrdersRepository
 import com.marknjunge.core.data.repository.UsersRepository
-import com.marknkamau.FoodKotlin.data.db.DbRepository
-import com.marknkamau.FoodKotlin.data.models.CartItem
+import com.thuylinhtran.FoodKotlin.data.db.DbRepository
+import com.thuylinhtran.FoodKotlin.data.models.CartItem
 import kotlinx.coroutines.launch
 
 class CheckoutViewModel(

@@ -1,4 +1,4 @@
-package com.marknkamau.FoodKotlin.ui.checkout
+package com.thuylinhtran.FoodKotlin.ui.checkout
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -13,15 +13,15 @@ import com.marknjunge.core.data.model.Address
 import com.marknjunge.core.data.model.PaymentMethod
 import com.marknjunge.core.data.model.Resource
 import com.marknjunge.core.data.model.User
-import com.marknkamau.FoodKotlin.R
-import com.marknkamau.FoodKotlin.ui.addAddress.AddAddressActivity
-import com.marknkamau.FoodKotlin.ui.base.BaseActivity
-import com.marknkamau.FoodKotlin.ui.login.SignInActivity
-import com.marknkamau.FoodKotlin.ui.main.MainActivity
-import com.marknkamau.FoodKotlin.ui.orderDetail.OrderDetailActivity
-import com.marknkamau.FoodKotlin.utils.CurrencyFormatter
-import com.marknkamau.FoodKotlin.utils.toast
-import com.marknkamau.FoodKotlin.utils.trimmedText
+import com.thuylinhtran.FoodKotlin.R
+import com.thuylinhtran.FoodKotlin.ui.addAddress.AddAddressActivity
+import com.thuylinhtran.FoodKotlin.ui.base.BaseActivity
+import com.thuylinhtran.FoodKotlin.ui.login.SignInActivity
+import com.thuylinhtran.FoodKotlin.ui.main.MainActivity
+import com.thuylinhtran.FoodKotlin.ui.orderDetail.OrderDetailActivity
+import com.thuylinhtran.FoodKotlin.utils.CurrencyFormatter
+import com.thuylinhtran.FoodKotlin.utils.toast
+import com.thuylinhtran.FoodKotlin.utils.trimmedText
 import kotlinx.android.synthetic.main.activity_checkout.*
 import org.koin.androidx.viewmodel.ext.android.viewModel
 

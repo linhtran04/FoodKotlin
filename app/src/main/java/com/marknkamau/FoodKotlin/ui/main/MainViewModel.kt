@@ -1,4 +1,4 @@
-package com.marknkamau.FoodKotlin.ui.main
+package com.thuylinhtran.FoodKotlin.ui.main
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

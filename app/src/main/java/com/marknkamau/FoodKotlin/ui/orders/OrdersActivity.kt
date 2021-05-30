@@ -1,4 +1,4 @@
-package com.marknkamau.FoodKotlin.ui.orders
+package com.thuylinhtran.FoodKotlin.ui.orders
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -11,12 +11,12 @@ import androidx.recyclerview.widget.RecyclerView
 import com.marknjunge.core.data.model.Order
 import com.marknjunge.core.data.model.OrderStatus
 import com.marknjunge.core.data.model.Resource
-import com.marknkamau.FoodKotlin.R
-import com.marknkamau.FoodKotlin.ui.base.BaseActivity
-import com.marknkamau.FoodKotlin.ui.orderDetail.OrderDetailActivity
-import com.marknkamau.FoodKotlin.utils.BaseRecyclerViewAdapter
-import com.marknkamau.FoodKotlin.utils.CurrencyFormatter
-import com.marknkamau.FoodKotlin.utils.DateTime
+import com.thuylinhtran.FoodKotlin.R
+import com.thuylinhtran.FoodKotlin.ui.base.BaseActivity
+import com.thuylinhtran.FoodKotlin.ui.orderDetail.OrderDetailActivity
+import com.thuylinhtran.FoodKotlin.utils.BaseRecyclerViewAdapter
+import com.thuylinhtran.FoodKotlin.utils.CurrencyFormatter
+import com.thuylinhtran.FoodKotlin.utils.DateTime
 import kotlinx.android.synthetic.main.activity_orders.*
 import kotlinx.android.synthetic.main.item_order.view.*
 import org.koin.androidx.viewmodel.ext.android.viewModel

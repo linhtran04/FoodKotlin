@@ -1,4 +1,4 @@
-package com.marknkamau.FoodKotlin.data.network
+package com.thuylinhtran.FoodKotlin.data.network
 
 import com.google.firebase.iid.FirebaseInstanceId
 import com.marknjunge.core.data.network.service.FirebaseService

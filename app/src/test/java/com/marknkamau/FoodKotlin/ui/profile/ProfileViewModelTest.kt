@@ -1,4 +1,4 @@
-package com.marknkamau.FoodKotlin.ui.profile
+package com.thuylinhtran.FoodKotlin.ui.profile
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.lifecycle.Observer
@@ -6,7 +6,7 @@ import com.marknjunge.core.data.model.Resource
 import com.marknjunge.core.data.model.User
 import com.marknjunge.core.data.repository.AuthRepository
 import com.marknjunge.core.data.repository.UsersRepository
-import com.marknkamau.FoodKotlin.utils.SampleData
+import com.thuylinhtran.FoodKotlin.utils.SampleData
 import io.mockk.MockKAnnotations
 import io.mockk.coEvery
 import io.mockk.impl.annotations.MockK

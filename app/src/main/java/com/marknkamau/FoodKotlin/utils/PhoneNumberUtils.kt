@@ -1,4 +1,4 @@
-package com.marknkamau.FoodKotlin.utils
+package com.thuylinhtran.FoodKotlin.utils
 
 object PhoneNumberUtils {
     fun sanitize(number: String): String {

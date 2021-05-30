@@ -1,13 +1,13 @@
-package com.marknkamau.FoodKotlin.ui.productDetails
+package com.thuylinhtran.FoodKotlin.ui.productDetails
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.marknkamau.FoodKotlin.R
-import com.marknkamau.FoodKotlin.data.models.AppProductChoiceOption
-import com.marknkamau.FoodKotlin.utils.CurrencyFormatter
+import com.thuylinhtran.FoodKotlin.R
+import com.thuylinhtran.FoodKotlin.data.models.AppProductChoiceOption
+import com.thuylinhtran.FoodKotlin.utils.CurrencyFormatter
 import kotlinx.android.synthetic.main.item_product_choice_option.view.*
 
 class OptionsAdapter(private val context: Context) : RecyclerView.Adapter<OptionsAdapter.ViewHolder>() {

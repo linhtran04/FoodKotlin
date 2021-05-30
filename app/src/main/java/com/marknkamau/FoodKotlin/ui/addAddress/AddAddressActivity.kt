@@ -1,4 +1,4 @@
-package com.marknkamau.FoodKotlin.ui.addAddress
+package com.thuylinhtran.FoodKotlin.ui.addAddress
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -22,9 +22,9 @@ import com.google.android.libraries.places.api.model.RectangularBounds
 import com.google.android.libraries.places.widget.AutocompleteSupportFragment
 import com.google.android.libraries.places.widget.listener.PlaceSelectionListener
 import com.marknjunge.core.data.model.Address
-import com.marknkamau.FoodKotlin.R
-import com.marknkamau.FoodKotlin.ui.base.BaseActivity
-import com.marknkamau.FoodKotlin.utils.trimmedText
+import com.thuylinhtran.FoodKotlin.R
+import com.thuylinhtran.FoodKotlin.ui.base.BaseActivity
+import com.thuylinhtran.FoodKotlin.utils.trimmedText
 import kotlinx.android.synthetic.main.activity_add_address.*
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

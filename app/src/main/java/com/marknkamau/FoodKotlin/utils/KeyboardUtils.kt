@@ -1,4 +1,4 @@
-package com.marknkamau.FoodKotlin.utils
+package com.thuylinhtran.FoodKotlin.utils
 
 import android.content.Context
 import android.view.inputmethod.InputMethodManager

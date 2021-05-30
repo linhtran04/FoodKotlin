@@ -1,4 +1,4 @@
-package com.marknkamau.FoodKotlin.data.models
+package com.thuylinhtran.FoodKotlin.data.models
 
 import androidx.room.Embedded
 import androidx.room.Relation

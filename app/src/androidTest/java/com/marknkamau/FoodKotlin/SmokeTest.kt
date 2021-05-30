@@ -1,9 +1,9 @@
-package com.marknkamau.FoodKotlin
+package com.thuylinhtran.FoodKotlin
 
 import androidx.test.core.app.ActivityScenario
 import com.marknjunge.core.data.model.Resource
-import com.marknkamau.FoodKotlin.testUtils.*
-import com.marknkamau.FoodKotlin.ui.main.MainActivity
+import com.thuylinhtran.FoodKotlin.testUtils.*
+import com.thuylinhtran.FoodKotlin.ui.main.MainActivity
 import io.mockk.coEvery
 import io.mockk.just
 import io.mockk.runs

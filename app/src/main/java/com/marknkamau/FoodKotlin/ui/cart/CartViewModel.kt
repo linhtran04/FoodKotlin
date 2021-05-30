@@ -1,4 +1,4 @@
-package com.marknkamau.FoodKotlin.ui.cart
+package com.thuylinhtran.FoodKotlin.ui.cart
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -7,8 +7,8 @@ import androidx.lifecycle.viewModelScope
 import com.marknjunge.core.data.local.PreferencesRepository
 import com.marknjunge.core.data.model.*
 import com.marknjunge.core.data.repository.CartRepository
-import com.marknkamau.FoodKotlin.data.db.DbRepository
-import com.marknkamau.FoodKotlin.data.models.CartItem
+import com.thuylinhtran.FoodKotlin.data.db.DbRepository
+import com.thuylinhtran.FoodKotlin.data.models.CartItem
 import kotlinx.coroutines.launch
 
 class CartViewModel(

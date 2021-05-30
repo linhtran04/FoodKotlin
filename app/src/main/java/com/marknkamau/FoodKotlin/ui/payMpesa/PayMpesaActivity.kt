@@ -1,4 +1,4 @@
-package com.marknkamau.FoodKotlin.ui.payMpesa
+package com.thuylinhtran.FoodKotlin.ui.payMpesa
 
 import android.content.Context
 import android.content.Intent
@@ -6,11 +6,11 @@ import android.os.Bundle
 import android.view.View
 import androidx.lifecycle.Observer
 import com.marknjunge.core.data.model.Resource
-import com.marknkamau.FoodKotlin.R
-import com.marknkamau.FoodKotlin.ui.base.BaseActivity
-import com.marknkamau.FoodKotlin.utils.resetErrorOnChange
-import com.marknkamau.FoodKotlin.utils.toast
-import com.marknkamau.FoodKotlin.utils.trimmedText
+import com.thuylinhtran.FoodKotlin.R
+import com.thuylinhtran.FoodKotlin.ui.base.BaseActivity
+import com.thuylinhtran.FoodKotlin.utils.resetErrorOnChange
+import com.thuylinhtran.FoodKotlin.utils.toast
+import com.thuylinhtran.FoodKotlin.utils.trimmedText
 import kotlinx.android.synthetic.main.activity_pay_mpesa.*
 import org.koin.androidx.viewmodel.ext.android.viewModel
 

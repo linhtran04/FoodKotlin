@@ -1,9 +1,9 @@
-package com.marknkamau.FoodKotlin.utils
+package com.thuylinhtran.FoodKotlin.utils
 
 import com.marknjunge.core.data.model.*
-import com.marknkamau.FoodKotlin.data.models.CartItem
-import com.marknkamau.FoodKotlin.data.models.CartOptionEntity
-import com.marknkamau.FoodKotlin.data.models.CartProductEntity
+import com.thuylinhtran.FoodKotlin.data.models.CartItem
+import com.thuylinhtran.FoodKotlin.data.models.CartOptionEntity
+import com.thuylinhtran.FoodKotlin.data.models.CartProductEntity
 
 internal object SampleData {
     val address = Address(0, "Street", "instructions", "-1,1")

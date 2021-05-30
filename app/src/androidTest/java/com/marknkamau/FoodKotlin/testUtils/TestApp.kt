@@ -1,11 +1,11 @@
-package com.marknkamau.FoodKotlin.testUtils
+package com.thuylinhtran.FoodKotlin.testUtils
 
 import com.marknjunge.core.data.local.PreferencesRepository
 import com.marknjunge.core.data.repository.*
-import com.marknkamau.FoodKotlin.FoodKotlinApp
-import com.marknkamau.FoodKotlin.data.db.DbRepository
-import com.marknkamau.FoodKotlin.di.viewModelModule
-import com.marknkamau.FoodKotlin.utils.NotificationHelper
+import com.thuylinhtran.FoodKotlin.FoodKotlinApp
+import com.thuylinhtran.FoodKotlin.data.db.DbRepository
+import com.thuylinhtran.FoodKotlin.di.viewModelModule
+import com.thuylinhtran.FoodKotlin.utils.NotificationHelper
 import io.mockk.mockk
 import org.koin.core.context.startKoin
 import org.koin.dsl.module

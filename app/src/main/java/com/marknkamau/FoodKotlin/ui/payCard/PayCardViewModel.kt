@@ -1,4 +1,4 @@
-package com.marknkamau.FoodKotlin.ui.payCard
+package com.thuylinhtran.FoodKotlin.ui.payCard
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

@@ -1,4 +1,4 @@
-package com.marknkamau.FoodKotlin.testUtils
+package com.thuylinhtran.FoodKotlin.testUtils
 
 import android.app.Application
 import android.content.Context

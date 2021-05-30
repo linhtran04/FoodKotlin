@@ -1,4 +1,4 @@
-package com.marknkamau.FoodKotlin.ui.orderDetail
+package com.thuylinhtran.FoodKotlin.ui.orderDetail
 
 import android.annotation.SuppressLint
 import android.content.BroadcastReceiver
@@ -13,15 +13,15 @@ import androidx.localbroadcastmanager.content.LocalBroadcastManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.marknjunge.core.data.model.*
-import com.marknkamau.FoodKotlin.R
-import com.marknkamau.FoodKotlin.data.network.FoodKotlinFirebaseMessagingService
-import com.marknkamau.FoodKotlin.ui.base.BaseActivity
-import com.marknkamau.FoodKotlin.ui.payCard.PayCardActivity
-import com.marknkamau.FoodKotlin.ui.payMpesa.PayMpesaActivity
-import com.marknkamau.FoodKotlin.utils.BaseRecyclerViewAdapter
-import com.marknkamau.FoodKotlin.utils.CurrencyFormatter
-import com.marknkamau.FoodKotlin.utils.DateTime
-import com.marknkamau.FoodKotlin.utils.toast
+import com.thuylinhtran.FoodKotlin.R
+import com.thuylinhtran.FoodKotlin.data.network.FoodKotlinFirebaseMessagingService
+import com.thuylinhtran.FoodKotlin.ui.base.BaseActivity
+import com.thuylinhtran.FoodKotlin.ui.payCard.PayCardActivity
+import com.thuylinhtran.FoodKotlin.ui.payMpesa.PayMpesaActivity
+import com.thuylinhtran.FoodKotlin.utils.BaseRecyclerViewAdapter
+import com.thuylinhtran.FoodKotlin.utils.CurrencyFormatter
+import com.thuylinhtran.FoodKotlin.utils.DateTime
+import com.thuylinhtran.FoodKotlin.utils.toast
 import kotlinx.android.synthetic.main.activity_order_detail.*
 import kotlinx.android.synthetic.main.activity_order_detail.pbLoading
 import kotlinx.android.synthetic.main.incl_order_details.*

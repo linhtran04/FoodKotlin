@@ -1,7 +1,7 @@
-package com.marknkamau.FoodKotlin.data.db
+package com.thuylinhtran.FoodKotlin.data.db
 
-import com.marknkamau.FoodKotlin.data.models.AppProduct
-import com.marknkamau.FoodKotlin.data.models.CartItem
+import com.thuylinhtran.FoodKotlin.data.models.AppProduct
+import com.thuylinhtran.FoodKotlin.data.models.CartItem
 
 interface DbRepository {
     suspend fun saveItemToCart(product: AppProduct, quantity: Int)

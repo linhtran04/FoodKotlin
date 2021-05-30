@@ -1,4 +1,4 @@
-package com.marknkamau.FoodKotlin.ui.base
+package com.thuylinhtran.FoodKotlin.ui.base
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -6,8 +6,8 @@ import androidx.core.app.TaskStackBuilder
 import androidx.lifecycle.lifecycleScope
 import com.marknjunge.core.data.model.Resource
 import com.marknjunge.core.data.repository.AuthRepository
-import com.marknkamau.FoodKotlin.ui.main.MainActivity
-import com.marknkamau.FoodKotlin.utils.toast
+import com.thuylinhtran.FoodKotlin.ui.main.MainActivity
+import com.thuylinhtran.FoodKotlin.utils.toast
 import kotlinx.coroutines.launch
 import org.koin.android.ext.android.inject
 

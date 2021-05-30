@@ -1,4 +1,4 @@
-package com.marknkamau.FoodKotlin.ui.cart
+package com.thuylinhtran.FoodKotlin.ui.cart
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.lifecycle.Observer
@@ -6,10 +6,10 @@ import com.marknjunge.core.data.local.PreferencesRepository
 import com.marknjunge.core.data.model.Resource
 import com.marknjunge.core.data.model.VerifyOrderResponse
 import com.marknjunge.core.data.repository.CartRepository
-import com.marknkamau.FoodKotlin.data.db.DbRepository
-import com.marknkamau.FoodKotlin.data.models.CartItem
-import com.marknkamau.FoodKotlin.ui.addressBook.AddressBookViewModel
-import com.marknkamau.FoodKotlin.utils.SampleData
+import com.thuylinhtran.FoodKotlin.data.db.DbRepository
+import com.thuylinhtran.FoodKotlin.data.models.CartItem
+import com.thuylinhtran.FoodKotlin.ui.addressBook.AddressBookViewModel
+import com.thuylinhtran.FoodKotlin.utils.SampleData
 import io.mockk.*
 import io.mockk.impl.annotations.MockK
 import kotlinx.coroutines.Dispatchers

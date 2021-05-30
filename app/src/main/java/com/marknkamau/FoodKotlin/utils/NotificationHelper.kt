@@ -1,4 +1,4 @@
-package com.marknkamau.FoodKotlin.utils
+package com.thuylinhtran.FoodKotlin.utils
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -8,7 +8,7 @@ import androidx.annotation.RequiresApi
 import androidx.core.app.NotificationCompat
 import androidx.core.content.ContextCompat
 import com.marknjunge.core.data.model.OrderStatus
-import com.marknkamau.FoodKotlin.R
+import com.thuylinhtran.FoodKotlin.R
 import kotlin.random.Random
 
 /**

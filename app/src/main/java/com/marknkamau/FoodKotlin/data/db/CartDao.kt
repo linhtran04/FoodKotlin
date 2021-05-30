@@ -1,9 +1,9 @@
-package com.marknkamau.FoodKotlin.data.db
+package com.thuylinhtran.FoodKotlin.data.db
 
 import androidx.room.*
-import com.marknkamau.FoodKotlin.data.models.CartOptionEntity
-import com.marknkamau.FoodKotlin.data.models.CartProductEntity
-import com.marknkamau.FoodKotlin.data.models.CartItem
+import com.thuylinhtran.FoodKotlin.data.models.CartOptionEntity
+import com.thuylinhtran.FoodKotlin.data.models.CartProductEntity
+import com.thuylinhtran.FoodKotlin.data.models.CartItem
 
 @Dao
 interface CartDao {

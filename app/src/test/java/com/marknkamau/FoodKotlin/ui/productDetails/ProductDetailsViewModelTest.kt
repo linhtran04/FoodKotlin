@@ -1,9 +1,9 @@
-package com.marknkamau.FoodKotlin.ui.productDetails
+package com.thuylinhtran.FoodKotlin.ui.productDetails
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.lifecycle.Observer
-import com.marknkamau.FoodKotlin.data.db.DbRepository
-import com.marknkamau.FoodKotlin.data.models.AppProduct
+import com.thuylinhtran.FoodKotlin.data.db.DbRepository
+import com.thuylinhtran.FoodKotlin.data.models.AppProduct
 import io.mockk.*
 import io.mockk.impl.annotations.MockK
 import kotlinx.coroutines.Dispatchers

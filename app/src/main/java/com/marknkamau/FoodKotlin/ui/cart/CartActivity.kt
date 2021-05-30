@@ -1,4 +1,4 @@
-package com.marknkamau.FoodKotlin.ui.cart
+package com.thuylinhtran.FoodKotlin.ui.cart
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -14,13 +14,13 @@ import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.marknjunge.core.data.model.Resource
-import com.marknkamau.FoodKotlin.R
-import com.marknkamau.FoodKotlin.data.models.CartItem
-import com.marknkamau.FoodKotlin.ui.ToolbarActivity
-import com.marknkamau.FoodKotlin.ui.checkout.CheckoutActivity
-import com.marknkamau.FoodKotlin.ui.login.SignInActivity
-import com.marknkamau.FoodKotlin.utils.BaseRecyclerViewAdapter
-import com.marknkamau.FoodKotlin.utils.CurrencyFormatter
+import com.thuylinhtran.FoodKotlin.R
+import com.thuylinhtran.FoodKotlin.data.models.CartItem
+import com.thuylinhtran.FoodKotlin.ui.ToolbarActivity
+import com.thuylinhtran.FoodKotlin.ui.checkout.CheckoutActivity
+import com.thuylinhtran.FoodKotlin.ui.login.SignInActivity
+import com.thuylinhtran.FoodKotlin.utils.BaseRecyclerViewAdapter
+import com.thuylinhtran.FoodKotlin.utils.CurrencyFormatter
 import kotlinx.android.synthetic.main.activity_cart.*
 import kotlinx.android.synthetic.main.item_cart_item.view.*
 import org.koin.androidx.viewmodel.ext.android.viewModel

@@ -1,4 +1,4 @@
-package com.marknkamau.FoodKotlin.ui.main
+package com.thuylinhtran.FoodKotlin.ui.main
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.lifecycle.Observer

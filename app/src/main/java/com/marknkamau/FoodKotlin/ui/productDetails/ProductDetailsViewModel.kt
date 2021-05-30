@@ -1,11 +1,11 @@
-package com.marknkamau.FoodKotlin.ui.productDetails
+package com.thuylinhtran.FoodKotlin.ui.productDetails
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.marknkamau.FoodKotlin.data.db.DbRepository
-import com.marknkamau.FoodKotlin.data.models.AppProduct
+import com.thuylinhtran.FoodKotlin.data.db.DbRepository
+import com.thuylinhtran.FoodKotlin.data.models.AppProduct
 import kotlinx.coroutines.launch
 
 class ProductDetailsViewModel(private val dbRepository: DbRepository) : ViewModel() {

@@ -1,15 +1,15 @@
-package com.marknkamau.FoodKotlin.ui
+package com.thuylinhtran.FoodKotlin.ui
 
 import android.content.Intent
 import android.view.Menu
 import android.view.MenuItem
 import com.marknjunge.core.data.local.PreferencesRepository
-import com.marknkamau.FoodKotlin.R
-import com.marknkamau.FoodKotlin.ui.about.AboutActivity
-import com.marknkamau.FoodKotlin.ui.base.BaseActivity
-import com.marknkamau.FoodKotlin.ui.cart.CartActivity
-import com.marknkamau.FoodKotlin.ui.login.SignInActivity
-import com.marknkamau.FoodKotlin.ui.profile.ProfileActivity
+import com.thuylinhtran.FoodKotlin.R
+import com.thuylinhtran.FoodKotlin.ui.about.AboutActivity
+import com.thuylinhtran.FoodKotlin.ui.base.BaseActivity
+import com.thuylinhtran.FoodKotlin.ui.cart.CartActivity
+import com.thuylinhtran.FoodKotlin.ui.login.SignInActivity
+import com.thuylinhtran.FoodKotlin.ui.profile.ProfileActivity
 import org.koin.android.ext.android.inject
 
 abstract class ToolbarActivity : BaseActivity() {

@@ -1,4 +1,4 @@
-package com.marknkamau.FoodKotlin.testUtils
+package com.thuylinhtran.FoodKotlin.testUtils
 
 import androidx.recyclerview.widget.RecyclerView
 import androidx.test.espresso.Espresso

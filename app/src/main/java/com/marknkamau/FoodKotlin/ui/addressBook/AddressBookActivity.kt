@@ -1,4 +1,4 @@
-package com.marknkamau.FoodKotlin.ui.addressBook
+package com.thuylinhtran.FoodKotlin.ui.addressBook
 
 import android.app.Activity
 import android.content.Intent
@@ -16,10 +16,10 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.marknjunge.core.data.model.Address
 import com.marknjunge.core.data.model.Resource
-import com.marknkamau.FoodKotlin.R
-import com.marknkamau.FoodKotlin.ui.addAddress.AddAddressActivity
-import com.marknkamau.FoodKotlin.ui.base.BaseActivity
-import com.marknkamau.FoodKotlin.utils.BaseRecyclerViewAdapter
+import com.thuylinhtran.FoodKotlin.R
+import com.thuylinhtran.FoodKotlin.ui.addAddress.AddAddressActivity
+import com.thuylinhtran.FoodKotlin.ui.base.BaseActivity
+import com.thuylinhtran.FoodKotlin.utils.BaseRecyclerViewAdapter
 import kotlinx.android.synthetic.main.activity_address_book.*
 import kotlinx.android.synthetic.main.item_address.view.*
 import org.koin.androidx.viewmodel.ext.android.viewModel

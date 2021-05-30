@@ -1,4 +1,4 @@
-package com.marknkamau.FoodKotlin.ui.orderDetail
+package com.thuylinhtran.FoodKotlin.ui.orderDetail
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.lifecycle.Observer
@@ -6,7 +6,7 @@ import com.marknjunge.core.data.local.PreferencesRepository
 import com.marknjunge.core.data.model.Order
 import com.marknjunge.core.data.model.Resource
 import com.marknjunge.core.data.repository.OrdersRepository
-import com.marknkamau.FoodKotlin.utils.SampleData
+import com.thuylinhtran.FoodKotlin.utils.SampleData
 import io.mockk.*
 import io.mockk.impl.annotations.MockK
 import kotlinx.coroutines.Dispatchers

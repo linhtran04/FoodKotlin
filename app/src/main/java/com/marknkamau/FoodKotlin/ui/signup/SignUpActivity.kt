@@ -1,14 +1,14 @@
-package com.marknkamau.FoodKotlin.ui.signup
+package com.thuylinhtran.FoodKotlin.ui.signup
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.lifecycle.Observer
 import com.marknjunge.core.data.model.Resource
-import com.marknkamau.FoodKotlin.R
-import com.marknkamau.FoodKotlin.ui.base.BaseActivity
-import com.marknkamau.FoodKotlin.ui.login.SignInActivity
-import com.marknkamau.FoodKotlin.utils.*
+import com.thuylinhtran.FoodKotlin.R
+import com.thuylinhtran.FoodKotlin.ui.base.BaseActivity
+import com.thuylinhtran.FoodKotlin.ui.login.SignInActivity
+import com.thuylinhtran.FoodKotlin.utils.*
 import kotlinx.android.synthetic.main.activity_sign_up.*
 import org.koin.androidx.viewmodel.ext.android.viewModel
 import java.util.regex.Pattern

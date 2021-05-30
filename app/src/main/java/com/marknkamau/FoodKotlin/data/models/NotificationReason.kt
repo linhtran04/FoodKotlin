@@ -1,4 +1,4 @@
-package com.marknkamau.FoodKotlin.data.models
+package com.thuylinhtran.FoodKotlin.data.models
 
 enum class NotificationReason(val s: String) {
     PAYMENT_COMPLETED("PAYMENT_COMPLETED"),

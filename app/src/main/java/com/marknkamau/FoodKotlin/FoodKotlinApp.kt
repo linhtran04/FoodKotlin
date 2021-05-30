@@ -1,4 +1,4 @@
-package com.marknkamau.FoodKotlin
+package com.thuylinhtran.FoodKotlin
 
 import android.app.Application
 import com.google.android.libraries.places.api.Places
@@ -7,10 +7,10 @@ import com.marknjunge.core.data.model.Resource
 import com.marknjunge.core.data.repository.AuthRepository
 import com.marknjunge.core.data.repository.UsersRepository
 import com.marknjunge.core.di.repositoriesModule
-import com.marknkamau.FoodKotlin.di.appModule
-import com.marknkamau.FoodKotlin.di.dbModule
-import com.marknkamau.FoodKotlin.di.viewModelModule
-import com.marknkamau.FoodKotlin.utils.toast
+import com.thuylinhtran.FoodKotlin.di.appModule
+import com.thuylinhtran.FoodKotlin.di.dbModule
+import com.thuylinhtran.FoodKotlin.di.viewModelModule
+import com.thuylinhtran.FoodKotlin.utils.toast
 import io.sentry.Sentry
 import io.sentry.android.AndroidSentryClientFactory
 import kotlinx.coroutines.CoroutineScope

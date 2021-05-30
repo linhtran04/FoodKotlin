@@ -1,4 +1,4 @@
-package com.marknkamau.FoodKotlin.ui.orderDetail
+package com.thuylinhtran.FoodKotlin.ui.orderDetail
 
 import androidx.lifecycle.*
 import com.marknjunge.core.data.local.PreferencesRepository

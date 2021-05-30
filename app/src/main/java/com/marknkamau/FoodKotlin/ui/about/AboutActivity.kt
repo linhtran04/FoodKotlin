@@ -1,4 +1,4 @@
-package com.marknkamau.FoodKotlin.ui.about
+package com.thuylinhtran.FoodKotlin.ui.about
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -6,8 +6,8 @@ import android.net.Uri
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import com.marknkamau.FoodKotlin.BuildConfig
-import com.marknkamau.FoodKotlin.R
+import com.thuylinhtran.FoodKotlin.BuildConfig
+import com.thuylinhtran.FoodKotlin.R
 import kotlinx.android.synthetic.main.activity_about.*
 
 class AboutActivity : AppCompatActivity() {

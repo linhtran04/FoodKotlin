@@ -1,4 +1,4 @@
-package com.marknkamau.FoodKotlin.ui.payCard
+package com.thuylinhtran.FoodKotlin.ui.payCard
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.lifecycle.Observer

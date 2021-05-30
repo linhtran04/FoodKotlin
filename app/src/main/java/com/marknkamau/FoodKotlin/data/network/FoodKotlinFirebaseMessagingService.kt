@@ -1,4 +1,4 @@
-package com.marknkamau.FoodKotlin.data.network
+package com.thuylinhtran.FoodKotlin.data.network
 
 import android.content.Intent
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
@@ -7,8 +7,8 @@ import com.google.firebase.messaging.RemoteMessage
 import com.marknjunge.core.data.model.OrderStatus
 import com.marknjunge.core.data.model.Resource
 import com.marknjunge.core.data.repository.UsersRepository
-import com.marknkamau.FoodKotlin.data.models.NotificationReason
-import com.marknkamau.FoodKotlin.utils.NotificationHelper
+import com.thuylinhtran.FoodKotlin.data.models.NotificationReason
+import com.thuylinhtran.FoodKotlin.utils.NotificationHelper
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

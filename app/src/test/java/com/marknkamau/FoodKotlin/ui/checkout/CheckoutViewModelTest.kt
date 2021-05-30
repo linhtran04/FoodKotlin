@@ -1,4 +1,4 @@
-package com.marknkamau.FoodKotlin.ui.checkout
+package com.thuylinhtran.FoodKotlin.ui.checkout
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.lifecycle.Observer
@@ -9,9 +9,9 @@ import com.marknjunge.core.data.model.PaymentMethod
 import com.marknjunge.core.data.model.Resource
 import com.marknjunge.core.data.repository.OrdersRepository
 import com.marknjunge.core.data.repository.UsersRepository
-import com.marknkamau.FoodKotlin.data.db.DbRepository
-import com.marknkamau.FoodKotlin.data.models.CartItem
-import com.marknkamau.FoodKotlin.utils.SampleData
+import com.thuylinhtran.FoodKotlin.data.db.DbRepository
+import com.thuylinhtran.FoodKotlin.data.models.CartItem
+import com.thuylinhtran.FoodKotlin.utils.SampleData
 import io.mockk.*
 import io.mockk.impl.annotations.MockK
 import kotlinx.coroutines.Dispatchers

@@ -1,9 +1,9 @@
-package com.marknkamau.FoodKotlin.ui
+package com.thuylinhtran.FoodKotlin.ui
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.marknkamau.FoodKotlin.ui.main.MainActivity
+import com.thuylinhtran.FoodKotlin.ui.main.MainActivity
 
 /**
  * Created by MarkNjunge.

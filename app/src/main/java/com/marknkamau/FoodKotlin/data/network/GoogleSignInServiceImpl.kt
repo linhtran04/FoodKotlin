@@ -1,4 +1,4 @@
-package com.marknkamau.FoodKotlin.data.network
+package com.thuylinhtran.FoodKotlin.data.network
 
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.marknjunge.core.data.network.service.GoogleSignInService

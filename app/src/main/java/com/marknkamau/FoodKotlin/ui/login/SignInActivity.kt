@@ -1,4 +1,4 @@
-package com.marknkamau.FoodKotlin.ui.login
+package com.thuylinhtran.FoodKotlin.ui.login
 
 import android.content.Intent
 import android.os.Bundle
@@ -11,10 +11,10 @@ import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.google.android.gms.common.api.ApiException
 import com.marknjunge.core.data.model.Resource
-import com.marknkamau.FoodKotlin.R
-import com.marknkamau.FoodKotlin.ui.base.BaseActivity
-import com.marknkamau.FoodKotlin.ui.signup.SignUpActivity
-import com.marknkamau.FoodKotlin.utils.*
+import com.thuylinhtran.FoodKotlin.R
+import com.thuylinhtran.FoodKotlin.ui.base.BaseActivity
+import com.thuylinhtran.FoodKotlin.ui.signup.SignUpActivity
+import com.thuylinhtran.FoodKotlin.utils.*
 import kotlinx.android.synthetic.main.activity_sign_in.*
 import org.koin.android.ext.android.inject
 import org.koin.androidx.viewmodel.ext.android.viewModel

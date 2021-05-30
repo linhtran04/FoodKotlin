@@ -30,7 +30,7 @@ The backend API is written using Nest.js. See [FoodKotlin-api](https://github.co
 Used for messaging.
 
 1. Create an project on [Firebase](https://console.firebase.google.com/).
-2. Add an application `com.marknkamau.FoodKotlin.debug`.
+2. Add an application `com.thuylinhtran.FoodKotlin.debug`.
 
 ### GCP project
 

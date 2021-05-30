@@ -1,4 +1,4 @@
-package com.marknkamau.FoodKotlin.ui.profile
+package com.thuylinhtran.FoodKotlin.ui.profile
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,11 +7,11 @@ import androidx.appcompat.app.AlertDialog
 import androidx.lifecycle.Observer
 import androidx.transition.TransitionManager
 import com.marknjunge.core.data.model.Resource
-import com.marknkamau.FoodKotlin.R
-import com.marknkamau.FoodKotlin.ui.ToolbarActivity
-import com.marknkamau.FoodKotlin.ui.addressBook.AddressBookActivity
-import com.marknkamau.FoodKotlin.ui.orders.OrdersActivity
-import com.marknkamau.FoodKotlin.utils.*
+import com.thuylinhtran.FoodKotlin.R
+import com.thuylinhtran.FoodKotlin.ui.ToolbarActivity
+import com.thuylinhtran.FoodKotlin.ui.addressBook.AddressBookActivity
+import com.thuylinhtran.FoodKotlin.ui.orders.OrdersActivity
+import com.thuylinhtran.FoodKotlin.utils.*
 import kotlinx.android.synthetic.main.activity_profile.*
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
